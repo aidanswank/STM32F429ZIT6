@@ -29393,6 +29393,16 @@
 		)
 		(uuid "09ad354d-06e7-49eb-b9f6-693e4fbf0923")
 	)
+	(label "PA14"
+		(at 335.28 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09c199b3-fdf4-4a6f-a2cb-45e95b3e28d3")
+	)
 	(label "SDNWE"
 		(at 326.39 99.06 180)
 		(effects
@@ -32803,6 +32813,16 @@
 		)
 		(uuid "da71a2de-ad92-428c-bc91-5fd294a756d9")
 	)
+	(label "PA13"
+		(at 335.28 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da7e49c8-dc44-438c-932c-f5c463dae2d8")
+	)
 	(label "PD10"
 		(at 59.69 180.34 0)
 		(effects
@@ -33042,6 +33062,16 @@
 			(justify left bottom)
 		)
 		(uuid "e5a83059-8930-44ed-aa47-1c3e80b779cd")
+	)
+	(label "PB3"
+		(at 386.08 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6557fa6-9be4-48ca-a4df-a7de4c8bc264")
 	)
 	(label "A3"
 		(at 43.18 149.86 0)
