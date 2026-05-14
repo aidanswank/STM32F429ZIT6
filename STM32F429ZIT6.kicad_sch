@@ -1473,216 +1473,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MB1075-altium-import:3V_BAR"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "3V"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name '3V'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "3V_BAR_0_0"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "3V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MB1075-altium-import:5V_BAR"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "5V"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name '5V'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "5V_BAR_0_0"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "MB1075-altium-import:GND_POWER_GROUND"
 			(power)
 			(exclude_from_sim no)
@@ -21801,17 +21591,6 @@
 		)
 		(uuid "592d1d5b-195b-4d9a-bc0a-1fb29cdfbfec")
 	)
-	(text "3V"
-		(exclude_from_sim no)
-		(at 344.17 -110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6726351c-40ae-4530-be65-c1e45fb6236b")
-	)
 	(text "BOOT1 / PB2"
 		(exclude_from_sim no)
 		(at 356.87 -74.93 0)
@@ -21874,28 +21653,6 @@
 		)
 		(uuid "92aa0a41-0c54-4b1a-b2ba-664e7416c73c")
 	)
-	(text "3V"
-		(exclude_from_sim no)
-		(at 313.69 -110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "933446fc-8c51-4825-a816-84033d1c8bbe")
-	)
-	(text "5V"
-		(exclude_from_sim no)
-		(at 218.44 -111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "934b5d29-0ade-4e9f-a857-2210ae00200e")
-	)
 	(text "CC1 and CC2 set to device mode for simplicity, dual role device feature unused\nfor USB MICRO AB equivalent is \"ID\" pin"
 		(exclude_from_sim no)
 		(at 112.522 302.26 0)
@@ -21947,17 +21704,6 @@
 			)
 		)
 		(uuid "a76fab44-bc67-4932-8752-4af90695e6c2")
-	)
-	(text "5V"
-		(exclude_from_sim no)
-		(at 248.92 -111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a90db6c0-2934-430e-abd6-0af7b71021a8")
 	)
 	(text "POWER LED"
 		(exclude_from_sim no)
@@ -34348,7 +34094,7 @@
 	)
 	(global_label "AUXOUT1"
 		(shape input)
-		(at 490.22 295.91 180)
+		(at 464.82 308.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -34358,7 +34104,7 @@
 		)
 		(uuid "48677ca8-eb88-426c-8d9f-7b63490aecc6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 478.7681 295.91 0)
+			(at 453.3681 308.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34480,7 +34226,7 @@
 	)
 	(global_label "AUXOUT2"
 		(shape input)
-		(at 490.22 298.45 180)
+		(at 464.82 311.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -34490,12 +34236,34 @@
 		)
 		(uuid "8a397fad-4746-4491-94fc-e0bee50a08b1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 478.7681 298.45 0)
+			(at 453.3681 311.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LINEIN_DTCT"
+		(shape input)
+		(at 259.08 -99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9918d597-b6f3-49e9-83f2-b3cd54073b20")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 273.5557 -99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -35023,6 +34791,73 @@
 			(project "STM32F429ZIT6"
 				(path "/bb5a47a2-47e2-4f6f-8bb5-5479733ff8ef"
 					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 311.15 -110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02c316b1-157d-4088-83ba-ad7187f41475")
+		(property "Reference" "#PWR066"
+			(at 314.96 -110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 307.34 -110.4901 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 311.15 -110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 311.15 -110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 311.15 -110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4bf915e4-8f41-42da-bda9-f681bed0ed2b")
+		)
+		(instances
+			(project "STM32F429ZIT6"
+				(path "/bb5a47a2-47e2-4f6f-8bb5-5479733ff8ef"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -39626,69 +39461,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MB1075-altium-import:5V_BAR")
-		(at 259.08 -111.76 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "20b3114e-07c2-4150-8c74-2f3d5b28b0e5")
-		(property "Reference" "#PWR0104"
-			(at 259.08 -111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "5V"
-			(at 262.89 -111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 -111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 -111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 -111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "1e06e3b5-3324-4361-8854-c231d99e89f6")
-		)
-		(instances
-			(project "STM32F429ZIT6"
-				(path "/bb5a47a2-47e2-4f6f-8bb5-5479733ff8ef"
-					(reference "#PWR0104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0402,100nF")
 		(at 435.61 137.16 0)
 		(unit 1)
@@ -42180,6 +41952,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 215.9 -111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a717b21-1ed4-451d-83a3-ba75b01d229a")
+		(property "Reference" "#PWR057"
+			(at 219.71 -111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 212.09 -111.7601 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 -111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 -111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 215.9 -111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "051f83ac-171b-4d0e-87a3-448680924b6a")
+		)
+		(instances
+			(project "STM32F429ZIT6"
+				(path "/bb5a47a2-47e2-4f6f-8bb5-5479733ff8ef"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:W9825G6KH-6")
 		(at 67.31 76.2 0)
 		(unit 1)
@@ -44223,69 +44062,6 @@
 			(project "STM32F429ZIT6"
 				(path "/bb5a47a2-47e2-4f6f-8bb5-5479733ff8ef"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MB1075-altium-import:3V_BAR")
-		(at 311.15 -110.49 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4d159b66-4069-4e17-8c89-49ccd234f503")
-		(property "Reference" "#PWR0110"
-			(at 311.15 -110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3V"
-			(at 307.34 -110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 311.15 -110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 311.15 -110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 311.15 -110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "19d30a38-38e1-4cb7-825e-c8dd52ed70ee")
-		)
-		(instances
-			(project "STM32F429ZIT6"
-				(path "/bb5a47a2-47e2-4f6f-8bb5-5479733ff8ef"
-					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -49013,6 +48789,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 354.33 -110.49 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7657f2ad-fad2-4abd-b46b-e68652b5d340")
+		(property "Reference" "#PWR067"
+			(at 350.52 -110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 358.14 -110.4901 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 354.33 -110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 354.33 -110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 354.33 -110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a748df48-a3a7-4604-9baa-1f85dd757ad5")
+		)
+		(instances
+			(project "STM32F429ZIT6"
+				(path "/bb5a47a2-47e2-4f6f-8bb5-5479733ff8ef"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:1206,2.2uF")
 		(at 228.6 123.19 0)
 		(unit 1)
@@ -49683,69 +49526,6 @@
 			(project "STM32F429ZIT6"
 				(path "/bb5a47a2-47e2-4f6f-8bb5-5479733ff8ef"
 					(reference "C45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MB1075-altium-import:5V_BAR")
-		(at 215.9 -111.76 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7a54478a-9f03-43ee-a398-791bcafa4dd0")
-		(property "Reference" "#PWR0105"
-			(at 215.9 -111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "5V"
-			(at 212.09 -111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 -111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 -111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 215.9 -111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "0ffda884-a3c2-4957-b404-9c5bfffe028e")
-		)
-		(instances
-			(project "STM32F429ZIT6"
-				(path "/bb5a47a2-47e2-4f6f-8bb5-5479733ff8ef"
-					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -54958,6 +54738,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 259.08 -111.76 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6acfac8-04d5-447d-bc51-cd27d9ded681")
+		(property "Reference" "#PWR065"
+			(at 255.27 -111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 262.89 -111.7601 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 -111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 -111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 259.08 -111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a4e8f5e-47c3-4467-9b5b-b06d60178062")
+		)
+		(instances
+			(project "STM32F429ZIT6"
+				(path "/bb5a47a2-47e2-4f6f-8bb5-5479733ff8ef"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:K3-1235S")
 		(at 242.57 101.6 90)
 		(unit 1)
@@ -55031,6 +54878,75 @@
 			(project "STM32F429ZIT6"
 				(path "/bb5a47a2-47e2-4f6f-8bb5-5479733ff8ef"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 469.9 308.61 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab235060-39e8-41dd-b059-5a4bca1e2cc8")
+		(property "Reference" "J1"
+			(at 469.265 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 469.265 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 469.9 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 469.9 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 469.9 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bca7ef87-3706-4ac4-89db-be9e4456cedb")
+		)
+		(pin "1"
+			(uuid "e9c89217-55c7-4e18-af00-2a1bbda7dbc7")
+		)
+		(instances
+			(project ""
+				(path "/bb5a47a2-47e2-4f6f-8bb5-5479733ff8ef"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -62310,69 +62226,6 @@
 			(project ""
 				(path "/bb5a47a2-47e2-4f6f-8bb5-5479733ff8ef"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MB1075-altium-import:3V_BAR")
-		(at 354.33 -110.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fe5388b0-a6a8-468f-b5ac-b082db1f77d0")
-		(property "Reference" "#PWR0114"
-			(at 354.33 -110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3V"
-			(at 358.14 -110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 354.33 -110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 354.33 -110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 354.33 -110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "65d93c4a-f60a-488a-94d3-c9d36d63d758")
-		)
-		(instances
-			(project "STM32F429ZIT6"
-				(path "/bb5a47a2-47e2-4f6f-8bb5-5479733ff8ef"
-					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
