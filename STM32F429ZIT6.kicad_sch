@@ -15025,174 +15025,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:FC-2012UGK-520D5"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED"
-				(at 0 4.06 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "FC-2012UGK-520D5"
-				(at 0 -6.1 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:LED0805-R-RD"
-				(at 0 -8.64 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Emerald-SMDLED-180-330mcd_C84260.html"
-				(at 0 -11.18 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C84260"
-				(at 0 -13.72 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "FC-2012UGK-520D5_0_1"
-				(polyline
-					(pts
-						(xy -3.81 2.29) (xy -2.79 1.78) (xy -3.3 1.27) (xy -3.81 2.29)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.79 3.3) (xy -1.78 2.79) (xy -2.29 2.29) (xy -2.79 3.3)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.03 0.51) (xy -3.81 2.29)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.02) (xy -1.27 -3.05)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.02 1.52) (xy -2.79 3.3)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy -1.27 -1.02) (xy 1.27 0.76) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -1.02 0)
-					(length 3.81)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 -1.02 180)
-					(length 3.81)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "easyeda2kicad:K3-1235S"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -21928,7 +21760,7 @@
 		)
 		(uuid "4110d2a9-f673-425c-8b05-30d51ddc1c45")
 	)
-	(text "ESD protection for data lines\nfigure 19 from tcpp01-m12.pdf"
+	(text "ESD protection for data lines\nfrom figure 19 from tcpp01-m12.pdf"
 		(exclude_from_sim no)
 		(at 54.356 266.954 0)
 		(effects
@@ -22064,9 +21896,9 @@
 		)
 		(uuid "934b5d29-0ade-4e9f-a857-2210ae00200e")
 	)
-	(text "CC1 and CC2 set to device mode for simplicity, power negotiation unused\nfor USB MICRO AB equivalent is \"ID\" pin"
+	(text "CC1 and CC2 set to device mode for simplicity, dual role device feature unused\nfor USB MICRO AB equivalent is \"ID\" pin"
 		(exclude_from_sim no)
-		(at 112.522 301.498 0)
+		(at 112.522 302.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25706,6 +25538,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 160.02) (xy 306.07 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57822221-f757-4425-b3a1-65c1750e65b0")
+	)
+	(wire
+		(pts
 			(xy 82.55 81.28) (xy 80.01 81.28)
 		)
 		(stroke
@@ -26303,6 +26145,16 @@
 			(type default)
 		)
 		(uuid "71903b8f-81d2-4abf-8acd-fc7bede55ece")
+	)
+	(wire
+		(pts
+			(xy 306.07 151.13) (xy 306.07 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72057880-b56c-44d6-ba87-d960a916cb2c")
 	)
 	(wire
 		(pts
@@ -33264,7 +33116,7 @@
 		)
 		(uuid "c55c1fba-bd7f-4078-90cd-47dd367f74dc")
 	)
-	(label "LED_GREEN"
+	(label "LED_RED2"
 		(at 176.53 129.54 180)
 		(effects
 			(font
@@ -33814,7 +33666,7 @@
 		)
 		(uuid "e3a3c94b-1a3d-4bd3-96ee-8f9180e08fde")
 	)
-	(label "LED_GREEN"
+	(label "LED_RED2"
 		(at 306.07 142.24 180)
 		(effects
 			(font
@@ -40353,6 +40205,166 @@
 			(project "STM32F429ZIT6"
 				(path "/bb5a47a2-47e2-4f6f-8bb5-5479733ff8ef"
 					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Diodes:LED,0603,Red")
+		(at 306.07 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24328f2e-8356-4864-95c7-0a4f802dcdaf")
+		(property "Reference" "D5"
+			(at 308.61 154.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Red"
+			(at 308.61 157.3847 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:D_0603"
+			(at 304.292 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810231112_Hubei-KENTO-Elec-KT-0603R_C2286.pdf"
+			(at 306.07 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-40°C~+85°C Red 0603 LED Indication - Discrete ROHS"
+			(at 306.07 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2286"
+			(at 306.07 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "5373336"
+			(at 306.07 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.009USD"
+			(at 306.07 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 306.07 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 306.07 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 306.07 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 306.07 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Optocouplers & LEDs & Infrared,Light Emitting Diodes (LED)"
+			(at 306.07 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Hubei KENTO Elec"
+			(at 306.07 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "KT-0603R"
+			(at 306.07 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65d26a08-09cf-466e-a279-d40270763b3a")
+		)
+		(pin "2"
+			(uuid "2312572f-582e-4d60-a280-02fe8a6250c1")
+		)
+		(instances
+			(project "STM32F429ZIT6"
+				(path "/bb5a47a2-47e2-4f6f-8bb5-5479733ff8ef"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -51126,85 +51138,6 @@
 			(project "STM32F429ZIT6"
 				(path "/bb5a47a2-47e2-4f6f-8bb5-5479733ff8ef"
 					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:FC-2012UGK-520D5")
-		(at 305.05 156.21 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "89274d90-80bc-46f6-b793-5f4bf19175d3")
-		(property "Reference" "LED1"
-			(at 308.86 156.2099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "FC-2012UGK-520D5"
-			(at 308.86 158.7499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:LED0805-R-RD"
-			(at 313.69 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Emerald-SMDLED-180-330mcd_C84260.html"
-			(at 316.23 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 305.05 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C84260"
-			(at 318.77 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc4fb7af-9e0a-4c56-a721-19b3f20972f1")
-		)
-		(pin "2"
-			(uuid "b355871a-fa90-4948-a128-65e9f615b721")
-		)
-		(instances
-			(project "STM32F429ZIT6"
-				(path "/bb5a47a2-47e2-4f6f-8bb5-5479733ff8ef"
-					(reference "LED1")
 					(unit 1)
 				)
 			)
