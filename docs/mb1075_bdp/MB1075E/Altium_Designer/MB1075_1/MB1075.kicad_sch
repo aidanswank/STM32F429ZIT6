@@ -1,0 +1,140 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d415a11a-9852-40a9-bc83-c9b5fb138766")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 127 25.4)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "08e68161-ee40-4aae-a7b8-59f5b3d6a60a")
+		(property "Sheetname" ""
+			(at 127 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "/Users/aidan/dev/kicad/STM32F429ZIT6/docs/mb1075_bdp/MB1075E/Altium_Designer/Project_Overview.SchDoc"
+			(at 127 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MB1075"
+				(path "/d415a11a-9852-40a9-bc83-c9b5fb138766"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 76.2)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "233b80ff-e27f-47bf-bd82-4fc28794f763")
+		(property "Sheetname" ""
+			(at 76.2 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "/Users/aidan/dev/kicad/STM32F429ZIT6/docs/mb1075_bdp/MB1075E/Altium_Designer/Top.SchDoc"
+			(at 76.2 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MB1075"
+				(path "/d415a11a-9852-40a9-bc83-c9b5fb138766"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 76.2)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b2c64851-b23f-48fb-a7e6-fb62e81fbac6")
+		(property "Sheetname" ""
+			(at 127 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "/Users/aidan/dev/kicad/STM32F429ZIT6/docs/mb1075_bdp/MB1075E/Altium_Designer/USB_OTG_FS.SchDoc"
+			(at 127 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MB1075"
+				(path "/d415a11a-9852-40a9-bc83-c9b5fb138766"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "#")
+		)
+	)
+	(embedded_fonts no)
+)

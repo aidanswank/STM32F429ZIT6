@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "6f30a085-bf55-47c5-a47c-f8773b72865e")
+	(uuid "83657c3d-f630-4685-806d-07f221775986")
 	(paper "A4")
 	(title_block
 		(title "Project overview")
@@ -11,27 +11,82 @@
 		(company "STMicroelectronics")
 	)
 	(lib_symbols)
-	(text "Warning text."
+	(text "Sheet 6: LCD 2.4\""
 		(exclude_from_sim no)
-		(at 162.56 83.0072 0)
+		(at 15.24 98.2472 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "08146873-a1dd-4fc4-b4ef-7e201f970b6b")
+		(uuid "00c8b81c-8693-427a-bd74-4d07f3e788b2")
 	)
-	(text "Open Platform License Agreement"
+	(text "${BOARD_PCB_REVISION}"
 		(exclude_from_sim no)
-		(at 157.48 116.0272 0)
+		(at 226.822 207.2132 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "0c2b806d-8f34-4a9b-bdea-d52a415cf8d4")
+		(uuid "06543349-d255-4ac6-826e-61bfa776abca")
+	)
+	(text "${BOARD_NAME}"
+		(exclude_from_sim no)
+		(at 10.16 34.7472 0)
+		(effects
+			(font
+				(size 6.096 6.096)
+			)
+			(justify left bottom)
+		)
+		(uuid "11103e51-b0fb-4ac2-b3d8-b3fde6409f2b")
+	)
+	(text "The Open Platform License Agreement (“Agreement”) is a binding legal contract between you (\"You\")"
+		(exclude_from_sim no)
+		(at 162.56 123.6472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1618b5b4-c9e7-46d2-8bfc-d9f1497f7ad2")
+	)
+	(text "Sheet 2: Top"
+		(exclude_from_sim no)
+		(at 15.24 77.9272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1715c413-5043-41b4-b4e2-0a47207105ad")
+	)
+	(text "Netherlands acting for the purpose of this Agreement through its Swiss branch 39, Chemin du"
+		(exclude_from_sim no)
+		(at 162.56 133.8072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "199ef258-a6bb-49a7-951d-5afe2b049a71")
+	)
+	(text "Text to be added to silkscreen."
+		(exclude_from_sim no)
+		(at 162.56 77.9272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c988c48-724e-4330-8b0b-2eeef252520e")
 	)
 	(text "-"
 		(exclude_from_sim no)
@@ -42,18 +97,18 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "0cc8870a-0e14-46c1-8651-7880f21db3e6")
+		(uuid "1d7ec6fc-6d35-4b98-8e31-3fe1f85e53b6")
 	)
-	(text "Sheet 7: Peripherals"
+	(text "Champ des Filles, 1228 Plan-les-Ouates, Geneva, Switzerland."
 		(exclude_from_sim no)
-		(at 15.24 103.3272 0)
+		(at 162.56 138.8872 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "12ff742a-263e-4ba7-9284-ab559190ba7f")
+		(uuid "2216d370-59a2-4ebf-8fdf-eb7278f899ac")
 	)
 	(text "Revision:"
 		(exclude_from_sim no)
@@ -64,73 +119,51 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "1fe8e64a-390c-4e49-b2c7-5c43e80890af")
+		(uuid "245c332e-4d08-436e-8c5d-c71bc0520739")
 	)
-	(text "the terms and conditions of this Agreement. Do not use the Reference Material until You have read"
+	(text "By using the enclosed reference designs, schematics, PC board layouts, and documentation, in hardcopy"
 		(exclude_from_sim no)
-		(at 162.56 156.6672 0)
+		(at 162.56 146.5072 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "22d51d05-9642-4831-8ace-026f10a2f21c")
+		(uuid "277beff4-2990-4b3f-aecf-9dac4908041d")
 	)
-	(text "Sheet 4: SDRAM 64Mbits"
+	(text "Project:"
 		(exclude_from_sim no)
-		(at 15.24 88.0872 0)
+		(at 216.662 202.1332 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "276f1d01-3122-4b23-8a31-dc3b0bf88c23")
+		(uuid "2ba39e54-b053-4fbd-8381-d3729350829b")
 	)
-	(text "Table of contents"
+	(text "Sheet:"
 		(exclude_from_sim no)
-		(at 10.16 65.2272 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left bottom)
-		)
-		(uuid "2b4e0f31-6aa8-4bf7-a3be-80f2c9d2a9d7")
-	)
-	(text "Sheet 3: STM32F429ZIT6 MCU"
-		(exclude_from_sim no)
-		(at 15.24 83.0072 0)
+		(at 252.73 210.0072 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "373e1aad-56b0-4ac0-a28e-9d3602b8c770")
+		(uuid "2e82d6d1-43cd-451b-8a40-0bc7efac163e")
 	)
-	(text "${VARIANTNAME}"
+	(text "Sheet 7: Peripherals"
 		(exclude_from_sim no)
-		(at 224.79 204.6732 0)
+		(at 15.24 103.3272 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "39db0394-d0c8-43d0-b603-a6bb716707aa")
-	)
-	(text "Title:"
-		(exclude_from_sim no)
-		(at 216.662 199.5932 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4356919f-2750-4bfc-bd52-7d843904283f")
+		(uuid "32754572-5d52-442b-9536-b3cf0d3af950")
 	)
 	(text "${TITLE}"
 		(exclude_from_sim no)
@@ -143,29 +176,29 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "47a7eb1f-95de-4a24-81ab-25e9818404d2")
+		(uuid "3d3525e5-f530-490b-80cf-99191cddb668")
 	)
-	(text "The Open Platform License Agreement (“Agreement”) is a binding legal contract between you (\"You\")"
+	(text "Sheet 4: SDRAM 64Mbits"
 		(exclude_from_sim no)
-		(at 162.56 123.6472 0)
+		(at 15.24 88.0872 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "49ce4bf7-429a-47bc-abc1-1645233e9d29")
+		(uuid "4b7c023c-8d68-4d26-b2c0-2f2fea702848")
 	)
-	(text "Sheet 1: Project overview (this page)"
+	(text "Sheet 3: STM32F429ZIT6 MCU"
 		(exclude_from_sim no)
-		(at 15.24 72.8472 0)
+		(at 15.24 83.0072 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "4a51c7ea-bf9e-4018-b74e-44cd855d0456")
+		(uuid "50df5e41-441e-437b-bd6c-6b691a40a0df")
 	)
 	(text "Sheet 5: USB_OTG_FS"
 		(exclude_from_sim no)
@@ -176,95 +209,29 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "4f315fc6-d75a-47e2-a645-68c25c26569d")
+		(uuid "51e3ccef-7221-4161-9a57-2b4f25fc690c")
 	)
-	(text "Sheet:"
+	(text "${#}"
 		(exclude_from_sim no)
-		(at 252.73 210.0072 0)
+		(at 259.588 210.0072 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "52fcd7c4-3b31-4682-b7eb-86e2e7d7b93c")
+		(uuid "57f4704b-9689-429f-8ea2-11792da9fe55")
 	)
-	(text "Netherlands acting for the purpose of this Agreement through its Swiss branch 39, Chemin du"
+	(text "Date:"
 		(exclude_from_sim no)
-		(at 162.56 133.8072 0)
+		(at 229.616 210.0072 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "60e44f63-78ae-400a-ba8a-19b778135b56")
-	)
-	(text "${BOARD_DOCUMENT_DATE}"
-		(exclude_from_sim no)
-		(at 235.458 210.0072 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "687ed14b-d5a5-4892-81fe-4d8e3f46e826")
-	)
-	(text "and agreed to this Agreement terms and conditions. The use of the Reference Material automatically"
-		(exclude_from_sim no)
-		(at 162.56 161.7472 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7967e19d-440e-407e-ad73-0330ce2ea54d")
-	)
-	(text "Legend"
-		(exclude_from_sim no)
-		(at 157.48 65.2272 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left bottom)
-		)
-		(uuid "7af25780-a197-4765-94c3-fb008cd41c6a")
-	)
-	(text "A4"
-		(exclude_from_sim no)
-		(at 221.742 210.0072 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "82af9ca2-5546-43d1-9d1c-a5bceff57d5e")
-	)
-	(text "Champ des Filles, 1228 Plan-les-Ouates, Geneva, Switzerland."
-		(exclude_from_sim no)
-		(at 162.56 138.8872 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "92067327-837d-493c-b64a-62af5141f38a")
-	)
-	(text "Project:"
-		(exclude_from_sim no)
-		(at 216.662 202.1332 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "92f6362a-122a-4c32-a3c4-9e6a802d169e")
+		(uuid "59839bf8-dd75-457e-9616-56db56ce8d89")
 	)
 	(text "implies the acceptance of the Agreement terms and conditions."
 		(exclude_from_sim no)
@@ -275,29 +242,238 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "9321236e-82e2-44ae-8f95-367f5964b4c9")
+		(uuid "5a9515cd-7ea4-48ea-b960-05337e527a67")
 	)
-	(text "${BOARD_PCB_REVISION}"
+	(text "Warning text."
 		(exclude_from_sim no)
-		(at 226.822 207.2132 0)
+		(at 162.56 83.0072 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "94a1dadf-4006-49e6-99cd-867dc078b4a8")
+		(uuid "5c0f1b7f-614d-4b33-bb9b-6e2c74c73594")
 	)
-	(text "General comment such as function title, configuration, ..."
+	(text "Open Platform License Agreement"
 		(exclude_from_sim no)
-		(at 162.56 72.8472 0)
+		(at 157.48 116.0272 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "5cf88bcc-8ed2-4d6b-b5f4-c1888f54e16b")
+	)
+	(text "the terms and conditions of this Agreement. Do not use the Reference Material until You have read"
+		(exclude_from_sim no)
+		(at 162.56 156.6672 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "98dfe7bc-daad-495a-a8e9-453a46cd7316")
+		(uuid "68872f37-64bc-48f3-8b37-d8ddbd35aade")
+	)
+	(text "${BOARD_ASSEMBLY_REVISION}"
+		(exclude_from_sim no)
+		(at 229.362 207.2132 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69c60c25-c7bb-4c1b-9442-e9f8b215f74a")
+	)
+	(text "${VARIANTNAME}"
+		(exclude_from_sim no)
+		(at 224.79 204.6732 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b5cc613-effb-4ee6-977f-e011bac41b86")
+	)
+	(text "or CAD tool file format (collectively, the “Reference Material”), You are agreeing to be bound by"
+		(exclude_from_sim no)
+		(at 162.56 151.5872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b91a462-f04d-4db6-8684-19e206f080f0")
+	)
+	(text "Size:"
+		(exclude_from_sim no)
+		(at 216.662 210.0072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6be4f1eb-49db-4b87-83a1-2ca678bc3aff")
+	)
+	(text "The complete Open Platform License Agreement can be found on www.st.com/opla."
+		(exclude_from_sim no)
+		(at 162.56 174.4472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "730df433-8344-4929-9b78-e40709c448a3")
+	)
+	(text "Reference:"
+		(exclude_from_sim no)
+		(at 252.73 207.2132 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "73a02ecd-6b50-4ebc-8ac8-d4728cf85174")
+	)
+	(text "${BOARD_REFERENCE}"
+		(exclude_from_sim no)
+		(at 263.652 207.2132 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75b8839c-bf35-41db-9e62-981544e2ffc5")
+	)
+	(text "and agreed to this Agreement terms and conditions. The use of the Reference Material automatically"
+		(exclude_from_sim no)
+		(at 162.56 161.7472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f48ff72-8bc7-4119-8352-920a90e2f0b2")
+	)
+	(text "A4"
+		(exclude_from_sim no)
+		(at 221.742 210.0072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a024e956-7420-43a3-9750-54f1dd450097")
+	)
+	(text "Legend"
+		(exclude_from_sim no)
+		(at 157.48 65.2272 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6fc25eb-a38f-4397-b5c8-ef63527638e8")
+	)
+	(text "Table of contents"
+		(exclude_from_sim no)
+		(at 10.16 65.2272 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8cfaeea-e586-4652-bdd5-5b97f0da5540")
+	)
+	(text "${BOARD_REFERENCE}"
+		(exclude_from_sim no)
+		(at 10.16 49.9872 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd00ef6d-82ed-43e4-9a4e-f9c0e0e1e81e")
+	)
+	(text "${##}"
+		(exclude_from_sim no)
+		(at 266.192 210.0072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2cef5d8-fc47-4b48-a3a9-7c49a52151c0")
+	)
+	(text "of"
+		(exclude_from_sim no)
+		(at 262.89 210.0072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4ceee48-ad01-4657-b7f9-692b0e94ce2f")
+	)
+	(text "and STMicroelectronics International N.V. (“ST”), a company incorporated under the laws of the"
+		(exclude_from_sim no)
+		(at 162.56 128.7272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d33a6388-f88c-46ee-b95c-f7c135569b85")
+	)
+	(text "Sheet 8: ST-LINK/V2-B (SWD only)"
+		(exclude_from_sim no)
+		(at 15.24 108.4072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d756c334-31ec-4d55-aad3-07fad352ce37")
+	)
+	(text "Sheet 1: Project overview (this page)"
+		(exclude_from_sim no)
+		(at 15.24 72.8472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df67722c-5e8c-44f5-a68d-ddf6790a9ff6")
+	)
+	(text "Variant:"
+		(exclude_from_sim no)
+		(at 216.662 204.6732 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0230d07-1dc2-4c9c-9622-9f9785739bae")
 	)
 	(text "${BOARD_NAME}"
 		(exclude_from_sim no)
@@ -310,216 +486,40 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "9ef1bab8-04e8-41a5-b7b0-e1ab6557d560")
+		(uuid "e7171a99-d3fa-4373-b94a-51624561317b")
 	)
-	(text "${BOARD_REFERENCE}"
+	(text "Title:"
 		(exclude_from_sim no)
-		(at 263.652 207.2132 0)
+		(at 216.662 199.5932 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "a18619f9-f39b-4dc7-a570-7a48bbe8b49a")
+		(uuid "e956ff83-389f-44b3-b647-dc9e7ec2de0e")
 	)
-	(text "Sheet 8: ST-LINK/V2-B (SWD only)"
+	(text "General comment such as function title, configuration, ..."
 		(exclude_from_sim no)
-		(at 15.24 108.4072 0)
+		(at 162.56 72.8472 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "ac7aefce-3a0c-4ec2-95ad-933fde1b7fa4")
+		(uuid "fc8f7a82-8584-418e-a1c1-a3709ee77524")
 	)
-	(text "${#}"
+	(text "${BOARD_DOCUMENT_DATE}"
 		(exclude_from_sim no)
-		(at 259.588 210.0072 0)
+		(at 235.458 210.0072 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "ad6bf64a-41bd-473d-9164-c137029d88dd")
-	)
-	(text "${BOARD_REFERENCE}"
-		(exclude_from_sim no)
-		(at 10.16 49.9872 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left bottom)
-		)
-		(uuid "bb597918-7375-405f-af3c-f9adac6f619a")
-	)
-	(text "${BOARD_NAME}"
-		(exclude_from_sim no)
-		(at 10.16 34.7472 0)
-		(effects
-			(font
-				(size 6.096 6.096)
-			)
-			(justify left bottom)
-		)
-		(uuid "c1cd4a97-543c-45fc-9882-2a135186c521")
-	)
-	(text "or CAD tool file format (collectively, the “Reference Material”), You are agreeing to be bound by"
-		(exclude_from_sim no)
-		(at 162.56 151.5872 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c2bb473e-72fd-4f16-81a9-05fccd735bde")
-	)
-	(text "Reference:"
-		(exclude_from_sim no)
-		(at 252.73 207.2132 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c9847c8b-a1ce-41bb-a13f-04073a73492e")
-	)
-	(text "and STMicroelectronics International N.V. (“ST”), a company incorporated under the laws of the"
-		(exclude_from_sim no)
-		(at 162.56 128.7272 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ca2c8e75-0671-4490-8dff-955e5c35dede")
-	)
-	(text "Text to be added to silkscreen."
-		(exclude_from_sim no)
-		(at 162.56 77.9272 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ce19eacf-10a5-44c9-82a6-bf0289242ee8")
-	)
-	(text "The complete Open Platform License Agreement can be found on www.st.com/opla."
-		(exclude_from_sim no)
-		(at 162.56 174.4472 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d5654c8b-81cd-4ab7-874f-5d7b72b5b997")
-	)
-	(text "Sheet 2: Top"
-		(exclude_from_sim no)
-		(at 15.24 77.9272 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e3f46f04-2d26-49fb-b9a5-9cda8ba73537")
-	)
-	(text "of"
-		(exclude_from_sim no)
-		(at 262.89 210.0072 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f1f1f9b1-0c1b-409d-b86d-12b97b732163")
-	)
-	(text "Date:"
-		(exclude_from_sim no)
-		(at 229.616 210.0072 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f3439ba5-be59-4c7c-b1fe-d331037859fb")
-	)
-	(text "Sheet 6: LCD 2.4\""
-		(exclude_from_sim no)
-		(at 15.24 98.2472 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f3646835-d178-4651-a421-fb9e69045db5")
-	)
-	(text "Size:"
-		(exclude_from_sim no)
-		(at 216.662 210.0072 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f7e16fc1-552f-4188-9c64-3b97738aa35e")
-	)
-	(text "${BOARD_ASSEMBLY_REVISION}"
-		(exclude_from_sim no)
-		(at 229.362 207.2132 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f8f217be-4ffa-4887-910b-4793df08cf93")
-	)
-	(text "By using the enclosed reference designs, schematics, PC board layouts, and documentation, in hardcopy"
-		(exclude_from_sim no)
-		(at 162.56 146.5072 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fce90a2c-b4cd-42d8-94d2-2894b16f97f6")
-	)
-	(text "${##}"
-		(exclude_from_sim no)
-		(at 266.192 210.0072 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fdd04fb1-94dd-42c9-9184-be6225e4278a")
-	)
-	(text "Variant:"
-		(exclude_from_sim no)
-		(at 216.662 204.6732 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fdf1f70a-7186-42b4-9d76-dc5b567a70ba")
+		(uuid "fd9fd528-ba04-438e-ad6a-72b6debff179")
 	)
 	(text_box "Notes to generate the board layout."
 		(exclude_from_sim no)
@@ -541,84 +541,7 @@
 			)
 			(justify left top)
 		)
-		(uuid "807ca66c-513c-4749-b2bc-2dd38f2efc2b")
-	)
-	(polyline
-		(pts
-			(xy 228.6 207.4672) (xy 228.6 210.0072)
-		)
-		(stroke
-			(width 0.0254)
-			(type solid)
-			(color 0 0 0 1)
-		)
-		(uuid "039a10b7-b9ec-4538-8785-3d53cb9a76da")
-	)
-	(polyline
-		(pts
-			(xy 10.16 67.7672) (xy 132.08 67.7672)
-		)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 0 0 128 1)
-		)
-		(uuid "0ef502f0-9357-4026-8598-ac21016b12ed")
-	)
-	(polyline
-		(pts
-			(xy 276.86 199.8472) (xy 215.9 199.8472)
-		)
-		(stroke
-			(width 0.0254)
-			(type solid)
-			(color 0 0 0 1)
-		)
-		(uuid "395a7b3d-fb92-414b-9939-0a8f42dc4e5e")
-	)
-	(polyline
-		(pts
-			(xy 157.48 118.5672) (xy 279.4 118.5672)
-		)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 0 0 128 1)
-		)
-		(uuid "48237558-2225-47e7-8ea0-ec012e3d2690")
-	)
-	(polyline
-		(pts
-			(xy 10.16 52.5272) (xy 279.4 52.5272)
-		)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 0 0 128 1)
-		)
-		(uuid "5d9e7fd2-256b-491e-b14b-10c3542c76d8")
-	)
-	(polyline
-		(pts
-			(xy 215.9 207.4672) (xy 276.86 207.4672)
-		)
-		(stroke
-			(width 0.0254)
-			(type solid)
-			(color 0 0 0 1)
-		)
-		(uuid "7b279911-47e4-4805-be80-bcdc1267e5bb")
-	)
-	(polyline
-		(pts
-			(xy 215.9 202.3872) (xy 276.86 202.3872)
-		)
-		(stroke
-			(width 0.0254)
-			(type solid)
-			(color 0 0 0 1)
-		)
-		(uuid "a1502d1c-8e0a-42db-ae14-bee902366a0a")
+		(uuid "d65714c3-1707-405a-b959-5046d46137d5")
 	)
 	(polyline
 		(pts
@@ -629,18 +552,29 @@
 			(type solid)
 			(color 0 0 0 1)
 		)
-		(uuid "beed5dfd-3ba4-4afe-b6d7-d70ebb3bc060")
+		(uuid "05b3ce78-5375-434e-9900-9ed11334f23e")
 	)
 	(polyline
 		(pts
-			(xy 251.46 204.9272) (xy 251.46 210.0072)
+			(xy 10.16 52.5272) (xy 279.4 52.5272)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 128 1)
+		)
+		(uuid "2375a002-9c47-4f95-ac40-036bc9ed38df")
+	)
+	(polyline
+		(pts
+			(xy 215.9 207.4672) (xy 276.86 207.4672)
 		)
 		(stroke
 			(width 0.0254)
 			(type solid)
 			(color 0 0 0 1)
 		)
-		(uuid "dce71da9-d742-4778-9320-cbcbfbd4a3f3")
+		(uuid "7049d981-e3fb-454a-bfa9-08feb02b2990")
 	)
 	(polyline
 		(pts
@@ -651,40 +585,40 @@
 			(type solid)
 			(color 0 0 0 1)
 		)
-		(uuid "e1abf279-7c3e-4bad-8d30-74eb60258bf2")
+		(uuid "85b94641-4bc3-4d1e-aec4-501f4eb54a76")
 	)
 	(polyline
 		(pts
-			(xy 292.1 197.3072) (xy 215.9 197.3072)
-		)
-		(stroke
-			(width 0.0254)
-			(type solid)
-			(color 0 0 0 1)
-		)
-		(uuid "e5ee301e-5ac1-451d-bc2b-4f856a55f1f8")
-	)
-	(polyline
-		(pts
-			(xy 215.9 204.9272) (xy 276.86 204.9272)
-		)
-		(stroke
-			(width 0.0254)
-			(type solid)
-			(color 0 0 0 1)
-		)
-		(uuid "eec51256-1d88-4587-933b-6a7284c9d48c")
-	)
-	(polyline
-		(pts
-			(xy 10.16 37.2872) (xy 279.4 37.2872)
+			(xy 10.16 67.7672) (xy 132.08 67.7672)
 		)
 		(stroke
 			(width 0.254)
 			(type solid)
 			(color 0 0 128 1)
 		)
-		(uuid "f5222ce0-7d79-4efd-bb43-9cf9eaadb808")
+		(uuid "91e54724-93a4-47c8-ac2c-96a20be68ccb")
+	)
+	(polyline
+		(pts
+			(xy 251.46 204.9272) (xy 251.46 210.0072)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "ad2c9291-a846-4834-b292-64ad7e94760e")
+	)
+	(polyline
+		(pts
+			(xy 215.9 202.3872) (xy 276.86 202.3872)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "ca8dc0e0-b6bf-4f4f-8e0b-4c403b6b3304")
 	)
 	(polyline
 		(pts
@@ -695,12 +629,78 @@
 			(type solid)
 			(color 0 0 128 1)
 		)
-		(uuid "fcef1f61-57cb-402d-a563-349d74bbe0c3")
+		(uuid "cc8246c8-e3cd-4c28-93c6-afe1ca781dcd")
+	)
+	(polyline
+		(pts
+			(xy 292.1 197.3072) (xy 215.9 197.3072)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "ce342293-7503-4709-af16-6d0d47c48418")
+	)
+	(polyline
+		(pts
+			(xy 215.9 204.9272) (xy 276.86 204.9272)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "d268a0d4-2f5d-4414-9e29-ee3133029c95")
+	)
+	(polyline
+		(pts
+			(xy 157.48 118.5672) (xy 279.4 118.5672)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 128 1)
+		)
+		(uuid "e4fd5123-0c84-4f82-a9dc-4a8120c8c310")
+	)
+	(polyline
+		(pts
+			(xy 228.6 207.4672) (xy 228.6 210.0072)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "e8bd7bcb-60a7-4bc1-9c3a-04b551dd2e44")
+	)
+	(polyline
+		(pts
+			(xy 276.86 199.8472) (xy 215.9 199.8472)
+		)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "ec7f7efc-5221-44fa-9471-2ae044ccd0db")
+	)
+	(polyline
+		(pts
+			(xy 10.16 37.2872) (xy 279.4 37.2872)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 128 1)
+		)
+		(uuid "f74a0d02-2213-4507-8ac4-1d34e1c76436")
 	)
 	(image
 		(at 284.442 203.6397)
 		(scale 0.0542361)
-		(uuid "eacbe75f-e9c7-45df-ad8c-a69e826ef285")
+		(uuid "62844512-e8fe-4cf4-8cd1-857e7c71779e")
 		(data "Qk2OfxkAAAAAADYAAAAoAAAA6AMAAC0CAAABABgAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAA////"
 			"////////////////////////////////////////////////////////////////////////////"
 			"////////////////////////////////////////////////////////////////////////////"
@@ -30180,7 +30180,7 @@
 		(fill
 			(color 128 255 128 1.0000)
 		)
-		(uuid "a128ca64-970c-46d3-852d-b045a6a17ab7")
+		(uuid "d2f964c5-7ec9-4f60-90b9-5bd9e15c9ac5")
 		(property "Sheetname" "U_Top"
 			(at 162.56 192.2272 0)
 			(effects
@@ -30201,7 +30201,7 @@
 		)
 		(instances
 			(project "MB1075"
-				(path "/cf87ea04-6674-4050-95fa-bcba21944eab/d0ebc5b1-fd4b-477f-bd85-7a064032f129"
+				(path "/d415a11a-9852-40a9-bc83-c9b5fb138766/08e68161-ee40-4aae-a7b8-59f5b3d6a60a"
 					(page "2")
 				)
 			)

@@ -3072,89 +3072,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MountingHole_1"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_1_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_JLCPCB-Capacitors:0402,100nF"
 			(pin_numbers
 				(hide yes)
@@ -25414,16 +25331,6 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 -31.75) (xy 321.31 -31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fa95100-49a1-46c6-9b12-1508166d76e1")
-	)
-	(wire
-		(pts
 			(xy 462.28 140.97) (xy 462.28 143.51)
 		)
 		(stroke
@@ -28591,16 +28498,6 @@
 			(type default)
 		)
 		(uuid "db271461-4b7c-4f8e-907e-59a6dd2ed03f")
-	)
-	(wire
-		(pts
-			(xy 341.63 -31.75) (xy 354.33 -31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbcdcfb0-9259-4218-b85d-20546bdc59a3")
 	)
 	(wire
 		(pts
@@ -34503,71 +34400,6 @@
 			(project ""
 				(path "/bb5a47a2-47e2-4f6f-8bb5-5479733ff8ef"
 					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "MountingHole_1")
-		(lib_id "Mechanical:MountingHole")
-		(at 534.67 340.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "012d2181-2401-44ec-af29-26012eb488c4")
-		(property "Reference" "H4"
-			(at 537.21 339.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ScrewMount"
-			(at 537.21 341.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 534.67 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 534.67 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 534.67 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "STM32F429ZIT6"
-				(path "/bb5a47a2-47e2-4f6f-8bb5-5479733ff8ef"
-					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -44068,70 +43900,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MB1075-altium-import:GND_POWER_GROUND")
-		(at 311.15 -31.75 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4d405902-f7b8-41d6-a1b1-49f31aa7accc")
-		(property "Reference" "#PWR0107"
-			(at 311.15 -31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 304.8 -31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 311.15 -31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 311.15 -31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 311.15 -31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "3a8bbf46-f41a-471e-905c-03a210e82076")
-		)
-		(instances
-			(project "STM32F429ZIT6"
-				(path "/bb5a47a2-47e2-4f6f-8bb5-5479733ff8ef"
-					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 303.53 250.19 90)
 		(mirror x)
@@ -45167,71 +44935,6 @@
 		)
 	)
 	(symbol
-		(lib_name "MountingHole_1")
-		(lib_id "Mechanical:MountingHole")
-		(at 515.62 340.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56d6dd55-06e8-40d6-8c09-b155914250d3")
-		(property "Reference" "H3"
-			(at 518.16 339.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ScrewMount"
-			(at 518.16 341.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 515.62 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 515.62 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 515.62 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "STM32F429ZIT6"
-				(path "/bb5a47a2-47e2-4f6f-8bb5-5479733ff8ef"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 364.49 240.03 0)
 		(unit 1)
@@ -45292,6 +44995,73 @@
 			(project "STM32F429ZIT6"
 				(path "/bb5a47a2-47e2-4f6f-8bb5-5479733ff8ef"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 321.31 -31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5893832c-bc56-49a6-924e-735a8e6ed6cb")
+		(property "Reference" "#PWR068"
+			(at 325.12 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 317.5 -31.7501 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 321.31 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 321.31 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 321.31 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0dbb82b4-e0cd-4c60-a952-458910e1a0f3")
+		)
+		(instances
+			(project "STM32F429ZIT6"
+				(path "/bb5a47a2-47e2-4f6f-8bb5-5479733ff8ef"
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -48278,6 +48048,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 341.63 -31.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74d8dde5-00c6-4a58-bcd6-2976a5cf503f")
+		(property "Reference" "#PWR069"
+			(at 337.82 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 345.44 -31.7501 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 341.63 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 341.63 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 341.63 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "168cf513-4e8a-447b-bae1-5c833806a1c8")
+		)
+		(instances
+			(project "STM32F429ZIT6"
+				(path "/bb5a47a2-47e2-4f6f-8bb5-5479733ff8ef"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0603,47kΩ")
 		(at 261.62 242.57 90)
 		(unit 1)
@@ -49917,135 +49754,6 @@
 			(project "STM32F429ZIT6"
 				(path "/bb5a47a2-47e2-4f6f-8bb5-5479733ff8ef"
 					(reference "C37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "MountingHole_1")
-		(lib_id "Mechanical:MountingHole")
-		(at 515.62 347.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e87b1b0-4a05-4777-a36d-adc51decf081")
-		(property "Reference" "H1"
-			(at 518.16 346.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ScrewMount"
-			(at 518.16 349.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 515.62 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 515.62 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 515.62 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "STM32F429ZIT6"
-				(path "/bb5a47a2-47e2-4f6f-8bb5-5479733ff8ef"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MB1075-altium-import:GND_POWER_GROUND")
-		(at 354.33 -31.75 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7f77b111-34ef-4906-a095-e90bcea9ae3f")
-		(property "Reference" "#PWR0113"
-			(at 354.33 -31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 360.68 -31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 354.33 -31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 354.33 -31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 354.33 -31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "a04062de-ef79-4ac0-af6b-33226f78baf9")
-		)
-		(instances
-			(project "STM32F429ZIT6"
-				(path "/bb5a47a2-47e2-4f6f-8bb5-5479733ff8ef"
-					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -58567,71 +58275,6 @@
 			(project "STM32F429ZIT6"
 				(path "/bb5a47a2-47e2-4f6f-8bb5-5479733ff8ef"
 					(reference "C39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "MountingHole_1")
-		(lib_id "Mechanical:MountingHole")
-		(at 534.67 347.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da7e203c-2474-45e9-990e-21c5ec1ac826")
-		(property "Reference" "H2"
-			(at 537.21 346.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ScrewMount"
-			(at 537.21 349.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 534.67 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 534.67 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 534.67 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "STM32F429ZIT6"
-				(path "/bb5a47a2-47e2-4f6f-8bb5-5479733ff8ef"
-					(reference "H2")
 					(unit 1)
 				)
 			)
