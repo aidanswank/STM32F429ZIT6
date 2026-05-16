@@ -7,6 +7,8 @@ D+ 11 + 24
 SDRAM
 
 Mine 				Ref design (MB1075)
+UDQM (NBL1) 48.5		53
+LDQM (NBL0) 41.7		41.5
 CLK 11.8 + 14.9 = 26.7		35.1
 A0 38 				40
 A1 38				40.2
